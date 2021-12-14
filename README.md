@@ -41,5 +41,5 @@ Check other [repository](https://github.com/deekshakoul/Production-Deployment-ML
 ```
  * nginx.conf - basic configuration setup file of nginx( can be found in /etc/nginx/)
  * project.conf - this is our nginx config setup file. Quite similar to what was done in earlier [repo](https://github.com/deekshakoul/Production-Deployment-ML-Model). The change to note here is argument **proxy_pass** which is set now as ` http://flask_app:8000;`, thus, pointing your Nginx configuration to the flask project. Since the flask container is called flask_app (in Step 2.)
-    * This file also metions the port at which finally our app will run i.e port 80
+   * This file also metions the port at which finally our app will run i.e port 80
 </details>
