@@ -14,7 +14,7 @@ Check other [repository](https://github.com/deekshakoul/Production-Deployment-ML
 </details>
 
 
-<details><summary>Step 2 - Docker image for Flask </summary>
+<details><summary> Step 2 - Docker image for Flask </summary>
   
 ```
 .
@@ -49,7 +49,7 @@ Check other [repository](https://github.com/deekshakoul/Production-Deployment-ML
 </details>
 
 
-<details><summary>Step 4 - Setting up docker-compose </summary>
+<details><summary> Step 4 - Setting up docker-compose </summary>
  
 We have 2 Dockerfiles: one for Flask + Gunicorn, and another for Nginx, inorder to communicate between them, we create a docker-compose.yaml file in our main folder.<br/>
 * The docker-compose file has two services -  flask_app and nginx.
