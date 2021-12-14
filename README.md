@@ -80,7 +80,7 @@ docker-compose up --build -d
       * There will be two repos create in your  docker_hub_id namely fask_app and nginx, that is why it was import to set "image" argument in docker-compose.
  </details>
  
-<details><summary> Running dockerized ML model on another server </summary>
+<details><summary> Step 7 - Running dockerized ML model on another server </summary>
  
  - [ ] login to new server and install docker and docker-compose from Step 1.
  - [ ] login in docker hub from this server
@@ -88,9 +88,9 @@ docker-compose up --build -d
  - [ ] create a newfolder and create a new docker-compose.yaml file for this server. This file will not be same as we used earlier, this one would be really simple that would just instruct docker to run the named services on ports mentioned. I have added this file as well under new_server folder. Notice there are no **builds, restart** arguments in this file.
  - [ ] sudo docker-compose up 
  
- #### Finally, our app will now run at new_server_ip:80
- 
- - [ ] Following commands can be run to restart fresh docker-compose:
+ > **Finally, our app will now run at new_server_ip:80** 
+
+- [ ] Following commands can be run to restart fresh docker-compose:
 ```
 sudo docker-compose stop
 sudo docker-compose rm -f
@@ -100,7 +100,7 @@ sudo docker-compose up
  
  </details>
  
-<details><summary> Step - References </summary>
+<details><summary> Step 8 - References </summary>
 
 * [How to deploy ML models using Flask + Gunicorn + Nginx + Docker](https://towardsdatascience.com/how-to-deploy-ml-models-using-flask-gunicorn-nginx-docker-9b32055b3d0)
 * [Downloading images with docker-compose](https://medium.com/analytics-vidhya/how-to-understand-downloading-images-with-docker-compose-236e323e541) 
