@@ -9,7 +9,7 @@ services:
     command: gunicorn -w 3 -b 0.0.0.0:5000 connector:app
 
   nginx:
-    image: docker_hub_id/nginx:latest
+    image: docker_hub_id/nginx:latest 
     container_name: nginx
     ports:
         - "80:80"
