@@ -6,6 +6,8 @@ Check other [repository](https://github.com/deekshakoul/Production-Deployment-ML
 
 
 <details><summary> Step 1 - installing docker and docker-compose </summary>
+> [Docker installation](https://docs.docker.com/engine/install/ubuntu/\#install-using-the-repository)
+> [Install Compose on Linux systems](https://docs.docker.com/compose/install/\#install-compose-on-linux-systems)
 
 ```
 [Docker installation](https://docs.docker.com/engine/install/ubuntu/\#install-using-the-repository)
